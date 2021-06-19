@@ -1,9 +1,34 @@
 body {
-	color: red;
+	color: white;
 	background-color: #00183F;
+
 }
 
-iframe {
-	width: 40vw;
-	height: 20vh;
+* {
+	transition: 0.1s;
+}
+
+h1 {
+	width: 500px;
+	border-left: solid 20px;
+	text-align: left;
+}
+
+a {
+	padding: 10px;
+	color: inherit;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover {
+	background-color: #AAAAAA88;
+}
+
+h3 {
+
+}
+
+p {
+
 }
