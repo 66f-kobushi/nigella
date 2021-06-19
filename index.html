@@ -9,9 +9,28 @@
 		<link rel="apple-touch-icon" type="image/png" href="img/apple-touch-icon.png">
 		<link rel="stylesheet" href="main.css">
 		<script src="gallery.js"></script>
-		<script src="main.js" ></script>
+		<script src="menu.js"></script>
+		<script src="home.js" ></script>
 	</head>
 	<body>
+
+		<a id="hamburger" href="javascript:onHambugerClick()" class="hamburger drop-shadow" style="font-weight: bold; font-size: 5vh; padding: 5px; text-decoration: none;">
+			≡
+		</a>
+
+		<div id="menu" class="closed" style="color: #888;">
+			<a href="javascript:onHambugerClick()" style="font-weight: bold; font-size: 5vh; padding: 5px; text-decoration: none; position: absolute; top: 20px; left: 20px;">×</a>
+			<br><br><br><br>
+			<p style="text-align: start; margin-left: 40px; overflow-y: scroll;">
+				▶︎<a href="">Home</a><br><br>
+				　<a href="gallery/">Gallery</a><br><br>
+				　<a href="story/">Story</a><br><br>
+				　<a href="message/">Message</a><br><br>
+				　<a href="cast/">Cast</a><br><br>
+				　<a href="#section-links">Twitter</a><br><br><br>
+				　<a href="">他クラス</a><br><br>
+			</p>
+		</div>
 		
 		<section id="section-title" class="blue" style="z-index: 100; position: relative;">
 
@@ -49,14 +68,14 @@
 					</div>
 				</div>
 
-				<a href="https://www.google.com" class="bottom">View All...</a>
+				<a href="gallery/" class="bottom">View All...</a>
 
 			</div>
 
 		</section>
 
 		<section class="green" style="z-index: 200; position: relative;">
-			<a href="file:///">
+			<a href="story/">
 			<div id="nigella" class="cover">
 				
 				<div class="upper">
@@ -72,7 +91,7 @@
 
 		<section class="red" style="z-index: 300; position: relative;">
 
-			<a href="https://www.google.com">
+			<a href="message/">
 			<div id="section-film" class="cover">
 				<h1 class="upper">Message</h1>
 				
@@ -89,7 +108,7 @@
 
 		<section class="blue2" style="z-index: 400; position: relative;">
 
-			<a href="file:///">
+			<a href="cast/">
 				<div id="section-cast" class="cover">
 					<h1 class="upper">Cast</h1>
 					

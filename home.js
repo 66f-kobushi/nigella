@@ -40,6 +40,7 @@ window.onload = function() {
 	feature2 = document.getElementById("feature2");
 	feature3 = document.getElementById("feature3");
 	presentFeatures();
+	setupMenu();
 }
 
 window.onscroll = function(e) {

@@ -28,6 +28,29 @@ a, a:hover {
 	color: inherit;
 }
 
+.hamburger {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+#menu {
+	position: fixed;
+	background-color: white;
+	top: 0vh;
+	right: 0vw;
+	width: 300px;
+	height: 100vh;
+	box-shadow: 0 8px 10px 1px rgba(0,0,0,0.3), 0 3px 14px 2px rgba(0,0,0,0.3), 0 5px 5px -3px rgba(0,0,0,0.3);
+	z-index: 1001;
+	transition: 0.2s;
+}
+
+.closed {
+	transform: translateX(200%);
+}
+
 .horizontal-scroll {
 	overflow-y: hidden;
 	overflow-x: scroll;
