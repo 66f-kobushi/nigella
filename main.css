@@ -10,6 +10,9 @@
 html {
 	background-color: #888;
 	overscroll-behavior: none;
+	color: white;
+	font-family: 'New Tegomin', serif;
+	text-align: center;
 }
 
 body {
@@ -25,6 +28,14 @@ img {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
+}
+
+.yellow {
+	background-color: #FEFF8F;
+	color: #746DAC;
+}
+.yellow h1 {
+	color: #746DAC;
 }
 
 .blue {
