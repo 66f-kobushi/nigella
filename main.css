@@ -23,6 +23,17 @@ img {
 	object-fit: contain;
 }
 
+a, a:hover {
+	font-size: xx-large;
+	color: inherit;
+}
+
+.horizontal-scroll {
+	overflow-y: hidden;
+	overflow-x: scroll;
+	overscroll-behavior: none;
+}
+
 .cover {
 	position: relative;
 	width: 100vw;
@@ -97,6 +108,15 @@ div {
 	transform-origin: left top;
 }
 
+.bottom {
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	white-space: nowrap;
+	transform: translate(-50%, -50%);
+	transform-origin: left top;
+}
+
 .circle {
 	border-radius: 50%;
 }
@@ -104,10 +124,4 @@ div {
 .fill {
 	width: 100%;
 	height: 100%;
-}
-
-#section-links a, #section-links a:visited {
-	font-family: 'New Tegomin', serif;
-	font-size: xx-large;
-	color: white;
 }
