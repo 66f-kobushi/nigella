@@ -5,8 +5,23 @@ var section_cast;
 var building;
 var film;
 var clapper;
-var video1;
-var video2;
+var flower1;
+var flower2;
+
+const images = [
+	'001.jpg',
+	'002.jpg',
+	'003.jpg',
+	'004.jpg',
+	'005.jpg',
+	'006.jpg',
+	'007.jpg',
+	'008.jpg',
+	'009.jpg',
+	'010.jpg',
+	'011.jpg',
+	'011.jpg'
+];
 
 window.onload = function() {
 	section_title = document.getElementById("section-title")
@@ -16,16 +31,16 @@ window.onload = function() {
 	building = document.getElementById("building");
 	film = document.getElementById("film");
 	clapper = document.getElementById("clapper");
-	video1 = document.getElementById("nigella-1");
-	video2 = document.getElementById("nigella-2");
+	flower1 = document.getElementById("nigella-1");
+	flower2 = document.getElementById("nigella-2");
 }
 
 window.onscroll = function(e) {
 	var title_scrollLife = elementScrollLife(section_title);
 	if (elementIsDisplayed(section_title)) {
-		var playTime = ease(title_scrollLife, 0, 1, 0, 10, 0);
-		video1.currentTime = playTime;
-		video2.currentTime = playTime;
+		var nigellaFrame = Math.round(ease(title_scrollLife, 0, 1, 0, 11, 0));
+		flower1.src = "nigella1/" + images[nigellaFrame];
+		flower2.src = "nigella2/" + images[nigellaFrame];
 	}
 	var nigella_scrollLife = elementScrollLife(section_nigella);
 	if (elementIsDisplayedWide(section_nigella)) {
