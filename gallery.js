@@ -4,8 +4,6 @@ let featuresArray = [
 	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/a8VAl_Jxzd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ];
 
-
-
 function presentFeatures() {
 
 	const height = feature1.clientHeight;
