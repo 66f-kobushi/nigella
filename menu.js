@@ -6,6 +6,9 @@ function setupMenu() {
 	menu = document.getElementById("menu");
 }
 
-function onHambugerClick() {
+function onHamburgerClick(toURL) {
 	menu.classList.toggle('closed');
+	if (toURL != undefined) {
+		location.href = toURL;
+	}
 }
