@@ -46,8 +46,8 @@ window.onscroll = function(e) {
 	var title_scrollLife = elementScrollLife(section_title);
 	if (elementIsDisplayed(section_title)) {
 		var nigellaFrame = Math.round(ease(title_scrollLife, 0, 1, 0, 11, 0));
-		flower1.src = "nigella1/" + images[nigellaFrame];
-		flower2.src = "nigella2/" + images[nigellaFrame];
+		flower1.src = "img/nigella1/" + images[nigellaFrame];
+		flower2.src = "img/nigella2/" + images[nigellaFrame];
 	}
 	var nigella_scrollLife = elementScrollLife(section_nigella);
 	if (elementIsDisplayedWide(section_nigella)) {
