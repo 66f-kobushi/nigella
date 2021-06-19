@@ -7,6 +7,9 @@ var film;
 var clapper;
 var flower1;
 var flower2;
+var feature1;
+var feature2;
+var feature3;
 
 const images = [
 	'001.jpg',
@@ -33,6 +36,10 @@ window.onload = function() {
 	clapper = document.getElementById("clapper");
 	flower1 = document.getElementById("nigella-1");
 	flower2 = document.getElementById("nigella-2");
+	feature1 = document.getElementById("feature1");
+	feature2 = document.getElementById("feature2");
+	feature3 = document.getElementById("feature3");
+	presentFeatures();
 }
 
 window.onscroll = function(e) {
