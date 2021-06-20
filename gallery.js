@@ -1,8 +1,8 @@
 let featuresArray = [
 	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/lp5Khjq_4dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/P22AUg-WXUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/a8VAl_Jxzd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-	''
+	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/bF9x0yNe1d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/nYrXurT1GHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ];
 
 
