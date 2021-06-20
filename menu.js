@@ -12,3 +12,4 @@ function onHamburgerClick(toURL) {
 		location.href = toURL;
 	}
 }
+// かかかっか
