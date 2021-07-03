@@ -52,7 +52,7 @@ window.onscroll = function(e) {
 	}
 	var nigella_scrollLife = elementScrollLife(section_nigella);
 	if (elementIsDisplayedWide(section_nigella)) {
-		var transform = ease(nigella_scrollLife, 0, 1, 0, -30, 1);
+		var transform = ease(nigella_scrollLife, 0, 1, 0, -20, 1);
 		building.style.transform = "translateX(" + transform + "vw)";
 	}
 	var film_scrollLife = elementScrollLifeWide(section_film);

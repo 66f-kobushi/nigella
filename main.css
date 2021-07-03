@@ -39,11 +39,31 @@ a, a:hover {
 	color: inherit;
 }
 
+a.link {
+	padding-top: 5px; padding-bottom: 5px;
+	padding-left: 10px; padding-right: 10px;
+	border-radius: 8px;
+}
+a.link:hover {
+	box-shadow: 0 8px 10px 1px #66666666, 0 3px 14px 2px #66666666, 0 5px 5px -3px #66666666;
+}
+
 .hamburger {
 	position: fixed;
 	top: 0;
 	right: 0;
 	z-index: 1000;
+}
+.hamburger, .close-menu {
+	height: 7vh;
+	width: 7vh;
+	border-radius: 3.5vh;
+	text-align: center;
+	vertical-align: middle;
+	display: inline;
+}
+.hamburger:hover, .close-menu:hover {
+	filter: drop-shadow(4px 6px 4px #666);
 }
 
 #menu {
@@ -112,7 +132,7 @@ a, a:hover {
 }
 
 .drop-shadow {
-	filter: drop-shadow(8px 10px 8px rgba(0,0,0,0.14));
+	filter: drop-shadow(4px 6px 4px #222) drop-shadow(-4px -6px 8px #88AAAAAA);
 }
 
 h1 {
