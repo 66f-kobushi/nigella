@@ -35,17 +35,17 @@ img {
 }
 
 a, a:hover {
-	font-size: xx-large;
 	color: inherit;
 }
 
 a.link {
+	font-size: xx-large;
 	padding-top: 5px; padding-bottom: 5px;
-	padding-left: 10px; padding-right: 10px;
+	padding-left: 20px; padding-right: 20px;
 	border-radius: 8px;
 }
 a.link:hover {
-	box-shadow: 0 8px 10px 1px #66666666, 0 3px 14px 2px #66666666, 0 5px 5px -3px #66666666;
+	box-shadow: 0 8px 10px 1px #66666666, 0 3px 14px 2px #66666666, -3px -5px 5px -3px #AAA;
 }
 
 .hamburger {
