@@ -8,7 +8,7 @@
 
 @media screen and (max-width:600px){
 	* {
-		font-size: 24px;
+		font-size: 100%;
 	}
 }
 
@@ -26,10 +26,9 @@ html {
 	text-align: center;
 }
 
-p {
+p.sentence {
 	text-align: left;
 	display: block;
-
 }
 
 body {
