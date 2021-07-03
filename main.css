@@ -29,6 +29,11 @@ html {
 	text-align: center;
 }
 
+p {
+	width: 80vw;
+	max-width: 600px;
+}
+
 p.sentence {
 	text-align: left;
 	display: block;
