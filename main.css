@@ -3,6 +3,8 @@
 @media screen and (min-width:600px){
 	* {
 		font-size: 105%;
+	}
+	h1 {
 		font-size: 3rem;
 	}
 }
@@ -10,6 +12,8 @@
 @media screen and (max-width:600px){
 	* {
 		font-size: 102%;
+	}
+	h1 {
 		font-size: 2rem;
 	}
 }
