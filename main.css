@@ -30,13 +30,14 @@ html {
 }
 
 p {
+	display: inline-block;
 	width: 80vw;
-	max-width: 600px;
+	text-align: center;
+	max-width: 800px;
 }
 
 p.sentence {
 	text-align: left;
-	display: block;
 }
 
 body {
@@ -106,6 +107,7 @@ a.link:hover {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
+	overflow: hidden;
 }
 
 .half-cover {
