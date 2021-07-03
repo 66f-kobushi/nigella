@@ -98,7 +98,12 @@ a.link:hover {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
-	overflow: hidden;
+}
+
+.half-cover {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
 }
 
 .yellow {
@@ -138,7 +143,7 @@ a.link:hover {
 }
 
 .drop-shadow {
-	filter: drop-shadow(4px 6px 4px #222) drop-shadow(-4px -6px 8px #88AAAAAA);
+	filter: drop-shadow(4px 6px 4px #222) drop-shadow(-4px -6px 8px #AAAAAA88);
 }
 
 h1 {
@@ -168,6 +173,14 @@ div {
 	transform-origin: left top;
 }
 
+.middle {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transform-origin: left top;
+}
+
 .bottom {
 	position: absolute;
 	left: 50%;
@@ -192,4 +205,22 @@ div {
 
 .bottom-space {
 	padding-bottom: 100px;
+}
+
+.before-grad {
+	background-color: #00000022;
+}
+
+.grad {
+	background: linear-gradient(to bottom, #00000022, #00000099 60%);
+}
+
+.after-grad {
+	background-color: #000000AA;
+}
+
+.cast-introduction {
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
