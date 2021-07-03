@@ -8,7 +8,7 @@
 
 @media screen and (max-width:600px){
 	* {
-		font-size: larger;
+		font-size: 28px;
 	}
 }
 
@@ -24,6 +24,12 @@ html {
 	color: white;
 	font-family: 'New Tegomin', serif;
 	text-align: center;
+}
+
+p {
+	text-align: left;
+	display: block;
+	width: 80vw;
 }
 
 body {
