@@ -43,6 +43,10 @@ p.sentence {
 	text-align: left;
 }
 
+h1.sentence {
+	white-space: normal;
+}
+
 body {
 	overflow-x: hidden;
 }
@@ -52,10 +56,12 @@ img {
 }
 
 a, a:hover {
+	text-decoration: none;
 	color: inherit;
 }
 
 a.link {
+	text-decoration: underline;
 	font-size: xx-large;
 	white-space: nowrap;
 	padding-top: 5px; padding-bottom: 5px;
@@ -235,4 +241,22 @@ div {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+}
+
+.entry {
+	display: block;
+	text-decoration: none;
+	width: 80vw;
+	padding: 20px;
+	text-align: justify;
+	background-color: #88226644;
+}
+
+.entry:hover {
+	background-color: #FF88CC44;
+}
+
+img.large {
+	width: 80vw;
+	max-width: 800px;
 }
