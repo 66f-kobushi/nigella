@@ -1,0 +1,18 @@
+@import url('../main.css');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Work+Sans:wght@100&display=swap');
+
+.story {
+	background-color: #C7E3E4;
+	font-family: 'Sawarabi Mincho', serif;
+	color: rgb(100, 111, 113);
+}
+
+.story h1 {
+	font-family: 'Work Sans', serif;
+	color: #333;
+}
+
+#story-content {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}

@@ -32,5 +32,4 @@ function presentFeatures() {
 	feature1.innerHTML = featuresArray[feature1_index];
 	feature2.innerHTML = featuresArray[feature2_index];
 	feature3.innerHTML = featuresArray[feature3_index];
-
 }
