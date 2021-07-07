@@ -80,7 +80,9 @@ a.link:hover {
 }
 .hamburger, .close-menu {
 	height: 7vh;
+	min-height: 24px;
 	width: 7vh;
+	min-width: 24px;
 	border-radius: 3.5vh;
 	text-align: center;
 	vertical-align: middle;
@@ -102,6 +104,23 @@ a.link:hover {
 	transition: 0.2s;
 }
 
+#home-icon {
+	position: fixed;
+	z-index: 1001;
+	top: 0px;
+	left: 0px;
+	padding: 16px;
+	border-radius: 50%;
+}
+#home-icon:hover {
+	background-color: #00000011;
+}
+
+#home-icon img {
+	width: 30px;
+	height: 30px;
+}
+
 .closed {
 	transform: translateX(200%);
 }
@@ -117,6 +136,12 @@ a.link:hover {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
+}
+
+.cover-expandable {
+	position: relative;
+	width: 100vw;
+	min-height: 100vh;
 }
 
 .half-cover {
