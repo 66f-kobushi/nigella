@@ -285,3 +285,8 @@ img.large {
 	width: 80vw;
 	max-width: 800px;
 }
+
+img.tap-indicator {
+	width: 100px;
+	height: fit-content;
+}
