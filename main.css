@@ -316,7 +316,6 @@ img.large {
 	left: 0;
 	right: 0;
 	text-decoration: underline;
-	font-size: xx-large;
 	font-weight: bold;
 	transition: 0.5s;
 	text-overflow: ellipsis;
