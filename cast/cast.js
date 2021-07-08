@@ -1,6 +1,7 @@
 window.onload = function() {
 	setupMenu();
 	var userAgent = window.navigator.userAgent.toLowerCase();
+	alert("hello!");
 	if ((userAgent.indexOf("safari") != -1) && (userAgent.indexOf("iphone") != -1 || userAgent.indexOf("ipad") != -1)) {
 		alert("iOS");
 		$(".cast-introduction").css('background-size', 'contain');
