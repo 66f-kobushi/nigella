@@ -2,6 +2,7 @@ var section_title;
 var section_nigella;
 var section_film;
 var section_cast;
+var section_gallery;
 var building;
 var film;
 var clapper;
@@ -10,6 +11,7 @@ var flower2;
 var feature1;
 var feature2;
 var feature3;
+var div_features;
 
 const images = [
 	'001.jpg',
@@ -31,6 +33,8 @@ window.onload = function() {
 	section_nigella = document.getElementById("nigella");
 	section_film = document.getElementById("section-film");
 	section_cast = document.getElementById("section-cast");
+	section_gallery = document.getElementById("section-gallery");
+	div_features = document.getElementById("gallery-feature");
 	building = document.getElementById("building");
 	film = document.getElementById("film");
 	clapper = document.getElementById("clapper");
@@ -64,6 +68,11 @@ window.onscroll = function(e) {
 	if (elementIsDisplayed(section_cast)) {
 		var transform = ease(cast_scrollLife, 0, 1, 0, -60, 1);
 		clapper.style.transform = "translateX(-50%) translateY(" + transform + "vh)";
+	}
+	var gallery_scrollLife = elementScrollLifeWide(section_gallery);
+	if (elementIsDisplayedWide(section_gallery)) {
+		var gallery_scroll = ease(gallery_scrollLife, 0, 1, 0, 800, 1);
+		div_features.scrollTo(gallery_scroll, 0);
 	}
 }
 
