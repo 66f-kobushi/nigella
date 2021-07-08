@@ -2,7 +2,6 @@ window.onload = function() {
 	setupMenu();
 	var userAgent = window.navigator.userAgent.toLowerCase();
 	if ((userAgent.indexOf("safari") != -1)) {
-		alert("safari");
 		$(".cast-introduction").css('background-size', 'contain');
 	}
 	
