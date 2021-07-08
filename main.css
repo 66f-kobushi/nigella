@@ -255,7 +255,7 @@ div {
 }
 
 .grad {
-	background: linear-gradient(to bottom, #00000022, #000000AA 60%);
+	background: linear-gradient(to bottom, #00000000, #000000AA 60%);
 }
 
 .after-grad {
@@ -263,8 +263,12 @@ div {
 }
 
 .cast-introduction {
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
 	background-position: center;
-	background-attachment: fixed;
 	background-size: cover;
 }
 
