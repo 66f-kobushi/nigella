@@ -255,6 +255,7 @@ div {
 }
 
 .grad {
+	position: relative;
 	background: linear-gradient(to bottom, #00000000, #000000AA 60%);
 }
 
