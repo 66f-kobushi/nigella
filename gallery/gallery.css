@@ -2,6 +2,41 @@
 	margin-left: 10vw;
 	margin-right: 10vw;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-	grid-gap: 12px 12px;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
+	grid-gap: 20px 20px;
+}
+
+.gallery-picture {
+	position: relative;
+	width: 100%;
+}
+
+.gallery-picture img:hover {
+	opacity: 0.8;
+}
+
+.gallery-picture::before {
+	content:"";
+	display: block;
+    padding-top: 100%;
+}
+
+.gallery-picture img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 30px;
+	width: 100%;
+	height: 90%;
+	object-fit: cover;
+}
+
+.gallery-picture p {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }

@@ -21,8 +21,13 @@ window.onload = function() {
 
 	for (var i = 0; i < cm_features.length; i++) {
 		var div = document.createElement("div");
+		div.style="background-color: #AAAAAA66";
 		div.innerHTML = "<iframe" + size + cm_features[i].substring(33);
 		layout_cm.appendChild(div);
 	}
 
+}
+
+function onImageClick(element) {
+	location.href = 'viewer.html?img=' + element.src;
 }
