@@ -12,6 +12,7 @@ var feature1;
 var feature2;
 var feature3;
 var div_features;
+var notifs;
 
 const images = [
 	'001.jpg',
@@ -43,8 +44,23 @@ window.onload = function() {
 	feature1 = document.getElementById("feature1");
 	feature2 = document.getElementById("feature2");
 	feature3 = document.getElementById("feature3");
+	notifs = [
+		document.getElementById("notif-1"),
+		document.getElementById("notif-2"),
+		document.getElementById("notif-3"),
+		document.getElementById("notif-4"),
+		document.getElementById("notif-5")
+	];
 	presentFeatures();
 	setupMenu();
+
+	let notifIndex = 0;
+	setInterval(function() {
+		notifs[notifIndex % notifs.length].classList.toggle("invisible");
+		notifs[(notifIndex + 1) % notifs.length].classList.toggle("invisible");
+		notifIndex++;
+	}, 4000);
+
 }
 
 window.onscroll = function(e) {

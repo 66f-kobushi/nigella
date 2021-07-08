@@ -286,3 +286,43 @@ img.large {
 	width: 80vw;
 	max-width: 800px;
 }
+
+#topics {
+	width: 80vw;
+	border-radius: 16px;
+	border: solid 4px white;
+	background-color: white;
+}
+
+#topics h1 {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	/* border-bottom: 20px solid red; */
+	background-color: red;
+}
+
+#topics div {
+	overflow: hidden;
+	position: relative;
+	height: 50px;
+}
+
+#topics a {
+	opacity: 1;
+	color: #4488CC;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-decoration: underline;
+	font-size: xx-large;
+	font-weight: bold;
+	transition: 0.5s;
+	text-overflow: ellipsis;
+}
+
+#topics a.invisible {
+	opacity: 0;
+	transform: translateY(100%);
+}
