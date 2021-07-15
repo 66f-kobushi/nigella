@@ -2,7 +2,8 @@ const cm_features = [
 	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/lp5Khjq_4dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/IRsSionlasU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/bF9x0yNe1d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/nYrXurT1GHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+	'<iframe width="1439" height="718" src="https://www.youtube.com/embed/nYrXurT1GHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+	'<iframe width="718" height="718" src="https://www.youtube.com/embed/dR5E922ng3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ]
 
 let layout_cm;
